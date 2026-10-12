@@ -1,0 +1,15 @@
+api_key: "YOUR_BAIDU_API_KEY"
+secret_key: "YOUR_BAIDU_SECRET_KEY"
+token_url: https://aip.baidubce.com/oauth/2.0/token
+tts_url: https://tsn.baidu.com/text2audio
+cuid: spark_chat
+request_timeout_seconds: 20.0
+max_queue_size: 5
+max_text_bytes: 900
+language: zh
+speed: 5
+pitch: 5
+volume: 8
+person: 4105
+audio_format: 6
+player: paplay

@@ -1,0 +1,14 @@
+<launch>
+  <node pkg="spark_chat" type="asr_node.py" name="asr_node" output="screen">
+    <param name="config_file" value="$(find spark_chat)/config/asr.yaml" />
+    <param name="worker_script" value="$(find spark_chat)/scripts/asr_worker.py" />
+  </node>
+
+  <node pkg="spark_chat" type="chat_node.py" name="chat_node" output="screen">
+    <param name="config_file" value="$(find spark_chat)/config/chat.yaml" />
+  </node>
+
+  <node pkg="spark_chat" type="baidu_tts_node.py" name="baidu_tts_node" output="screen">
+    <param name="config_file" value="$(find spark_chat)/config/tts.yaml" />
+  </node>
+</launch>

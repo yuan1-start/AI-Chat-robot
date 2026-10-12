@@ -1,0 +1,18 @@
+asr:
+  backend: qwen3_asr
+  model_id: Qwen/Qwen3-ASR-0.6B
+  model_path: /home/spark/ai_models/Qwen/Qwen--Qwen3-ASR-0.6B/snapshots/master
+  device: cpu
+  dtype: float32
+  sample_rate: 16000
+  max_inference_batch_size: 1
+  max_new_tokens: 512
+  python_executable: /home/spark/miniconda3/envs/spark-qwen-asr/bin/python
+  language: Chinese
+  threads: 4
+  record_device: pulse
+  vad_aggressiveness: 1
+  silence_seconds: 2.0
+  start_timeout: 300.0
+  max_record_seconds: 30.0
+  record_output: /tmp/spark_chat_asr.wav

@@ -1,0 +1,24 @@
+# ROS / catkin
+build/
+devil/
+install/
+.devel_space/
+.catkin_tools/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Logs and data
+*.log
+*.bag
+*.wav
+*.mp3
+*.pt
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Local overrides
+config/*.local.yaml
