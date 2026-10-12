@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>spark_chat</name>
+  <version>0.1.0</version>
+  <description>ROS package for voice-based AI conversations.</description>
+
+  <maintainer email="spark@todo.todo">spark</maintainer>
+  <license>TODO</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <depend>rospy</depend>
+  <depend>std_msgs</depend>
+  <exec_depend>python3-yaml</exec_depend>
+
+  <export>
+  </export>
+</package>
